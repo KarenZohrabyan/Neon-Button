@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2d302d;
+    font-family: consolas;
+    min-height: 100vh;
+}
+
+#h1-1 {
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    color: rgb(247, 154, 92);
+    cursor: pointer;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 25px;
+    overflow: hidden;
+    border-radius: 12px;
+    transition: 0.9s;
+}
+
+#h1-1:hover {
+    color: rgb(0, 0, 0);
+    background: rgb(12, 206, 132);
+    box-shadow: 0 0 10px rgb(12, 206, 132), 0 0 40px rgb(12, 206, 132), 0 0 80px rgb(12, 206, 132), 0 0 160px rgb(12, 206, 132);
+    transition-delay: 0.2s;
+}
+
+#h1-2 {
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    color: rgb(247, 154, 92);
+    cursor: pointer;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 15px;
+    overflow: hidden;
+    border-radius: 12px;
+    transition: 0.9s;
+}
+
+#h1-2:hover {
+    color: rgb(0, 0, 0);
+    background: rgb(255, 0, 0);
+    box-shadow: 0 0 10px rgb(255, 0, 0), 0 0 40px rgb(255, 0, 0), 0 0 80px rgb(255, 0, 0), 0 0 160px rgb(255, 0, 0);
+    transition-delay: 0.2s;
+}
